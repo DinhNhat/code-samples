@@ -63,7 +63,7 @@ class FFMpeg
 
     public function open(string $video): void { /* ... */ }
 
-    // ...more methods and classes... RU: ...дополнительные методы и классы...
+    // ...more methods and classes
 }
 
 
@@ -75,11 +75,7 @@ class FFMpeg
  */
 function clientCode(YouTubeDownloader $facade)
 {
-    // ...
-
     $facade->downloadVideo("https://www.youtube.com/watch?v=QH2-TGUlwu4");
-
-    // ...
 }
 
 $facade = new YouTubeDownloader("APIKEY-XXXXXXXXX");
